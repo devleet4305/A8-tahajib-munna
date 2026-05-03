@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish sunglasses perfect for summer.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Beach Straw Hat",
+    "brand": "SunnyWear",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 8,
+    "description": "Perfect hat for beach days.",
+    "image": "https://images.unsplash.com/photo-1523381294911-8d3cead13475",
+    "category": "Fashion"
+  },
+  {
+    "id": 3,
+    "name": "SPF 50 Sunscreen",
+    "brand": "SkinGuard",
+    "price": 18,
+    "rating": 4.8,
+    "stock": 15,
+    "description": "Protect your skin.",
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad",
+    "category": "Skincare"
+  },
+  {
+    "id": 4,
+    "name": "Summer Floral Dress",
+    "brand": "BreezeStyle",
+    "price": 25,
+    "rating": 4.6,
+    "stock": 6,
+    "description": "Trendy summer dress.",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d",
+    "category": "Clothing"
+  },
+  {
+    "id": 5,
+    "name": "Beach Flip Flops",
+    "brand": "WalkEasy",
+    "price": 10,
+    "rating": 4.4,
+    "stock": 12,
+    "description": "Comfortable flip flops.",
+    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Portable Mini Fan",
+    "brand": "CoolBreeze",
+    "price": 14,
+    "rating": 4.3,
+    "stock": 9,
+    "description": "Stay cool anywhere.",
+    "image": "https://images.unsplash.com/photo-1590080876214-0c5d6f9c7d9f",
+    "category": "Accessories"
+  }
+]

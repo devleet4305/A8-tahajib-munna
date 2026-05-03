@@ -1,30 +1,42 @@
 "use client";
+
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b">
-      <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
-        
-        <h1 className="text-2xl font-bold text-orange-500">
+    <div className="bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-md">
+
+      {/* Top bar */}
+      <div className="max-w-7xl mx-auto flex justify-end gap-6 text-xs py-1 opacity-90">
+        <span>SAVE MORE ON APP</span>
+        <span>BECOME A SELLER</span>
+        <span>HELP & SUPPORT</span>
+      </div>
+
+      {/* Main navbar */}
+      <div className="max-w-7xl mx-auto flex items-center gap-6 py-4 px-4">
+
+        <h1 className="text-2xl font-bold tracking-tight">
           SunCart ☀️
         </h1>
 
-        <div className="hidden md:flex gap-6 font-medium">
-          <Link href="/" className="hover:text-orange-500">Home</Link>
-          <Link href="/products" className="hover:text-orange-500">Products</Link>
-          <Link href="/my-profile" className="hover:text-orange-500">Profile</Link>
-        </div>
+        <input
+          placeholder="Search products..."
+          className="flex-1 px-4 py-2 rounded-full text-black focus:outline-none shadow-sm"
+        />
 
-        <div className="flex gap-3">
-          <Link href="/login" className="btn btn-sm btn-outline">
-            Login
-          </Link>
-          <Link href="/register" className="btn btn-sm bg-orange-500 text-white border-none">
-            Register
-          </Link>
-        </div>
+        <Link href="/login" className="hover:underline">
+          Login
+        </Link>
+
+        <Link
+          href="/register"
+          className="bg-white text-orange-500 px-4 py-1 rounded-full font-semibold"
+        >
+          Sign Up
+        </Link>
+
       </div>
-    </nav>
+    </div>
   );
 }
